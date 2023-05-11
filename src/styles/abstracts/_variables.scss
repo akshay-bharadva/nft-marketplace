@@ -1,0 +1,38 @@
+// ! Variables =>
+
+// ! Primary Color
+$color-primary-light: #7ed56f;
+$color-primary-medium: #55c57a;
+$color-primary-dark: #28b485;
+// ! Secondary Color
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+// ! Tertiary Color
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+// ! Light Grey Colors
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+// ! Dark Grey Colors
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+// ! Color B&W
+$color-white: #fff;
+$color-black: #000;
+// ! Grid System Components
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+// ! Font size
+$default-font-size: 1.6rem;
+
+$gradient-orange-yellow: linear-gradient(97.86deg, #ff8d8d -38.38%, #f7fc0e 71.88%),
+  linear-gradient(97.86deg, #ff8d8d -38.38%, #f7fc0e 71.88%);
+$gradient-purple: linear-gradient(97.86deg, #89c6ff -38.38%, #3633d0 71.88%);
+
+$blur: blur(14.8462px);
+
+$font-primary: "Poppins";
+$font-secondary: "GT Walsheim Pro";

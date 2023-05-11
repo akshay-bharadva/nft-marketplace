@@ -1,0 +1,19 @@
+// ! Grid Section
+
+// ! Row of max-width 1140px
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  // ! margin-bottom: to every row Except last;
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+  @include respond(tab-port) {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+}
