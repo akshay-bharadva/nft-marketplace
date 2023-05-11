@@ -1,6 +1,8 @@
 {
   "name": "nft-marketplace-ts",
   "version": "0.1.0",
+  "author": "Akshay Bharadva",
+  "homepage": "https://akshay-bharadva.github.io/nft-marketplace/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
