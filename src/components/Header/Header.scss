@@ -1,0 +1,60 @@
+@import "../../styles/abstracts/mixins";
+@import "../../styles/abstracts/variables";
+
+.header {
+  border-bottom: 1.5px solid $color-grey-dark-3;
+  padding: 2rem 10rem;
+
+  &__menu-container {
+    @include flexCenter;
+    justify-content: flex-start;
+  }
+
+  &__menu {
+    @include flexCenter;
+    list-style: none;
+
+    & li {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: #ffffff;
+      cursor: pointer;
+      animation: 0.5s ease 0s 1 normal none running all;
+
+      &:hover::after {
+        content: " ";
+        display: block;
+        background: $gradient-purple;
+        animation: 0.5s ease 0s 1 normal none running all;
+        opacity: 1;
+        width: 70%;
+        height: 0.2rem;
+        border-radius: 0.5rem;
+        margin: 0 auto;
+      }
+    }
+
+    & li:not(:last-child) {
+      margin-right: 5rem;
+    }
+  }
+
+  &__title-container {
+    @include flexCenter;
+  }
+
+  &__title {
+    font-family: $font-secondary;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.05px;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+  }
+
+  &__wallet-container {
+    @include flexCenter;
+    justify-content: flex-end;
+  }
+}

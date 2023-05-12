@@ -1,0 +1,46 @@
+@import "../../styles/abstracts/mixins";
+
+.button {
+  border: 0;
+  @include flexCenter;
+  flex-direction: row;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: transparent;
+  transition: all 2s;
+  cursor: pointer;
+
+  &--filled {
+    padding: 1.3rem 2rem;
+    background: linear-gradient(97.86deg, #89c6ff -38.38%, #3633d0 71.88%);
+    &:hover {
+      background: linear-gradient(-35.14deg, #89c6ff -38.38%, #3633d0 71.88%);
+    }
+  }
+
+  &--outline {
+    position: relative;
+    background: #13112a;
+    background-clip: padding-box;
+    border: 3px solid transparent;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      margin: -3px;
+      border-radius: inherit;
+      background: linear-gradient(97.86deg, #89c6ff -38.38%, #3633d0 71.88%);
+    }
+    &:hover::before {
+      background: linear-gradient(-35.14deg, #89c6ff -38.38%, #3633d0 71.88%);
+    }
+  }
+}
