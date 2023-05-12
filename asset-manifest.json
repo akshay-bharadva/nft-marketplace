@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/nft-marketplace/static/css/main.35d780da.css",
-    "main.js": "/nft-marketplace/static/js/main.b6bd118c.js",
+    "main.css": "/nft-marketplace/static/css/main.d99625d2.css",
+    "main.js": "/nft-marketplace/static/js/main.025fbf4d.js",
     "static/js/787.d54e13bb.chunk.js": "/nft-marketplace/static/js/787.d54e13bb.chunk.js",
-    "static/media/circular.png": "/nft-marketplace/static/media/circular.c430ad339d49bf32523a.png",
-    "static/media/logo.svg": "/nft-marketplace/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/watered-colour-painting.jpg": "/nft-marketplace/static/media/watered-colour-painting.88c4757638aeb81a75af.jpg",
+    "static/media/sea-coral.jpg": "/nft-marketplace/static/media/sea-coral.edbbfed3004a07b2523e.jpg",
+    "static/media/birmingham-museums.jpg": "/nft-marketplace/static/media/birmingham-museums.356c4fca61f42eb14c65.jpg",
+    "static/media/diogo-nunes.jpg": "/nft-marketplace/static/media/diogo-nunes.9f007b14a1fa50e68de2.jpg",
+    "static/media/splashed-colors.jpg": "/nft-marketplace/static/media/splashed-colors.0a393232911c074a5291.jpg",
+    "static/media/coloured-hand.jpg": "/nft-marketplace/static/media/coloured-hand.420bb9ac95d0b563440f.jpg",
+    "static/media/birmingham-museums-fort.jpg": "/nft-marketplace/static/media/birmingham-museums-fort.19804cf0d940e39e4645.jpg",
+    "static/media/circular.webp": "/nft-marketplace/static/media/circular.c8cdc3267962d0d5ee31.webp",
+    "static/media/epic-african-female.jpg": "/nft-marketplace/static/media/epic-african-female.d385aa204eda0d2c8965.jpg",
+    "static/media/canvas-painting.jpg": "/nft-marketplace/static/media/canvas-painting.fab17f923c25ba3fd35b.jpg",
+    "static/media/spiral-glass-object.jpg": "/nft-marketplace/static/media/spiral-glass-object.cb15f869c95cc112306d.jpg",
+    "static/media/coloured-balls.jpg": "/nft-marketplace/static/media/coloured-balls.5dd212f4966e640144f1.jpg",
+    "static/media/black-female-with-spect.png": "/nft-marketplace/static/media/black-female-with-spect.ba827351cc3867aedea5.png",
+    "static/media/glassed-hand-object.jpg": "/nft-marketplace/static/media/glassed-hand-object.dfaf7021cbc41279a972.jpg",
+    "static/media/skeleton-with-outfits.jpg": "/nft-marketplace/static/media/skeleton-with-outfits.026ea8cf0ffdb2f4944e.jpg",
     "index.html": "/nft-marketplace/index.html",
-    "main.35d780da.css.map": "/nft-marketplace/static/css/main.35d780da.css.map",
-    "main.b6bd118c.js.map": "/nft-marketplace/static/js/main.b6bd118c.js.map",
+    "main.d99625d2.css.map": "/nft-marketplace/static/css/main.d99625d2.css.map",
+    "main.025fbf4d.js.map": "/nft-marketplace/static/js/main.025fbf4d.js.map",
     "787.d54e13bb.chunk.js.map": "/nft-marketplace/static/js/787.d54e13bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35d780da.css",
-    "static/js/main.b6bd118c.js"
+    "static/css/main.d99625d2.css",
+    "static/js/main.025fbf4d.js"
   ]
 }
