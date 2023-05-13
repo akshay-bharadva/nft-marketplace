@@ -8,31 +8,32 @@
     flex-direction: column;
     align-items: flex-start;
     font-family: "Poppins";
-    padding: 8rem;
-    gap: 10px;
+    padding: 10rem;
+    gap: 1rem;
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
+    backdrop-filter: blur(1rem);
+    border-radius: 2rem;
+    border: 3px solid #ffffff;
   }
   &__cta-details {
     width: 100%;
     @include flexCenter;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   &__title {
     font-weight: 600;
-    font-size: 40.4352px;
-    line-height: 52px;
-    letter-spacing: 0.005em;
+    font-size: 4rem;
+    line-height: 5rem;
+    letter-spacing: 0.005rem;
     color: #ffffff;
     margin-bottom: 1rem;
   }
   &__desc {
     font-weight: 400;
-    font-size: 13.7063px;
-    line-height: 128.5%;
-    letter-spacing: 0.005em;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.005rem;
     color: #ffffff;
   }
   &__subscribe-container {
