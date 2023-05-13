@@ -70,7 +70,7 @@ const Trending = () => {
                     <p className={`${CLASS_NAME}__trending-nft-detail-price`}>{_.price}</p>
                   </div>
                   <div className={`${CLASS_NAME}__trending-nft-cta`}></div>
-                  <Button content="Collect Now" withFilled />
+                  <Button content="Collect Now" isFilled isRounded />
                 </div>
               </div>
             );
