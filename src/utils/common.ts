@@ -1,3 +1,8 @@
+import { v4 as uuidv4 } from "uuid";
+
+export function getUUID() {
+  return uuidv4();
+}
 export function numberWithCommas(x: string) {
   return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 }
