@@ -103,6 +103,7 @@ $image-rotation-degree: 5deg;
     @include flexCenter;
     justify-content: space-around;
     margin-top: -5rem;
+    border: 3px solid #ffffff;
   }
   &__brand-image {
   }

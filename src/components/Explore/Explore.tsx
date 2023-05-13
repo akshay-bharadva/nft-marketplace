@@ -93,7 +93,7 @@ const EXPLORE_MARKETPLACE_NFTs: NFT_DETAIL[] = [
     nftName: "Incublast",
     user: "@mikeyobstain",
     price: "1.1 ETH",
-    nftSourceImage: ASSETS.SPIRAL_GLASS_OBJECT,
+    nftSourceImage: ASSETS.MICHAEL_ANGELOS_PAINTING,
   },
 ];
 
