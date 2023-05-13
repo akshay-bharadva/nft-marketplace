@@ -15,6 +15,10 @@ import SKELETON_WITH_OUTFITS from "./images/skeleton-with-outfits.jpg";
 import SPIRAL_GLASS_OBJECT from "./images/spiral-glass-object.jpg";
 import SPLASHED_COLORS from "./images/splashed-colors.jpg";
 import WATERED_COLOUR_PAINTING from "./images/watered-colour-painting.jpg";
+import ROMAN_WATER_CARRIER from "./images/roman-water-carrier.jpg";
+import MICHAEL_ANGELOS_PAINTING from "./images/michael-angelos-painting.jpg";
+import TEXTURE_AND_PATTERN from "./images/texture-and-pattern.jpg";
+import GRAYSCALE_ROMAN_SCULPTURE from "./images/grayscale-roman-sculpture.jpg";
 
 const ASSETS = {
   BINANCE,
@@ -34,5 +38,9 @@ const ASSETS = {
   SPIRAL_GLASS_OBJECT,
   SPLASHED_COLORS,
   WATERED_COLOUR_PAINTING,
+  ROMAN_WATER_CARRIER,
+  MICHAEL_ANGELOS_PAINTING,
+  TEXTURE_AND_PATTERN,
+  GRAYSCALE_ROMAN_SCULPTURE,
 };
 export default ASSETS;

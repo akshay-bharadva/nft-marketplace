@@ -20,7 +20,7 @@ const Header = () => {
             <h3 className={`${CLASS_NAME}__title`}>NFT</h3>
           </div>
           <div className={`${CLASS_NAME}__wallet-container col-4`}>
-            <Button content="Connect Wallet" withFilled />
+            <Button content="Connect Wallet" isFilled isRounded />
           </div>
         </div>
       </header>

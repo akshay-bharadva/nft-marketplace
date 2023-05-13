@@ -26,7 +26,7 @@ const Footer = () => {
                 value={email}
                 changeHandler={(e) => setEmail(e.target.value)}
               />
-              <Button withFilled content="Subscribe" />
+              <Button isFilled isRounded content="Subscribe" />
             </div>
           </div>
         </div>

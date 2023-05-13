@@ -19,8 +19,8 @@ const Hero = () => {
               creator, made possible by blockchain technology.
             </p>
             <div className={`${CLASS_NAME}__cta-container`}>
-              <Button content="Let's Explore" withFilled />
-              <Button content="Sell NFT" withOutline />
+              <Button content="Let's Explore" isRounded isFilled />
+              <Button content="Sell NFT" isRounded isOutline />
             </div>
           </div>
           <div className={`${CLASS_NAME}__graphic-container col-6`}>

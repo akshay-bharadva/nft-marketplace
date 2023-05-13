@@ -1,21 +1,31 @@
 @import "../../styles/abstracts/mixins";
 
 .button {
+  $vertical-padding: 1rem;
+  $horizontal-padding: 2rem;
   border: 0;
   @include flexCenter;
   flex-direction: row;
-  padding: 1rem 2rem;
-  border-radius: 3rem;
+  padding: $vertical-padding $horizontal-padding;
+  border-radius: 1rem;
   font-weight: 500;
   font-size: 1.5rem;
   color: #ffffff;
   background: transparent;
-  transition: all 2s;
   cursor: pointer;
 
+  &--small {
+    font-size: 1rem;
+  }
+
+  &--rounded {
+    border-radius: 3rem;
+  }
+
   &--filled {
-    padding: 1.3rem 2rem;
+    padding: calc($vertical-padding + 3px) $horizontal-padding;
     background: linear-gradient(97.86deg, #89c6ff -38.38%, #3633d0 71.88%);
+
     &:hover {
       background: linear-gradient(-35.14deg, #89c6ff -38.38%, #3633d0 71.88%);
     }
