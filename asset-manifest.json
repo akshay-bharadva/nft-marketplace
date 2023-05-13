@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nft-marketplace/static/css/main.f1cb41a3.css",
-    "main.js": "/nft-marketplace/static/js/main.0f6d3926.js",
+    "main.css": "/nft-marketplace/static/css/main.abfa976e.css",
+    "main.js": "/nft-marketplace/static/js/main.0de3b518.js",
     "static/js/787.0979ab29.chunk.js": "/nft-marketplace/static/js/787.0979ab29.chunk.js",
     "static/media/watered-colour-painting.jpg": "/nft-marketplace/static/media/watered-colour-painting.88c4757638aeb81a75af.jpg",
     "static/media/sea-coral.jpg": "/nft-marketplace/static/media/sea-coral.edbbfed3004a07b2523e.jpg",
@@ -19,12 +19,12 @@
     "static/media/glassed-hand-object.jpg": "/nft-marketplace/static/media/glassed-hand-object.dfaf7021cbc41279a972.jpg",
     "static/media/skeleton-with-outfits.jpg": "/nft-marketplace/static/media/skeleton-with-outfits.026ea8cf0ffdb2f4944e.jpg",
     "index.html": "/nft-marketplace/index.html",
-    "main.f1cb41a3.css.map": "/nft-marketplace/static/css/main.f1cb41a3.css.map",
-    "main.0f6d3926.js.map": "/nft-marketplace/static/js/main.0f6d3926.js.map",
+    "main.abfa976e.css.map": "/nft-marketplace/static/css/main.abfa976e.css.map",
+    "main.0de3b518.js.map": "/nft-marketplace/static/js/main.0de3b518.js.map",
     "787.0979ab29.chunk.js.map": "/nft-marketplace/static/js/787.0979ab29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1cb41a3.css",
-    "static/js/main.0f6d3926.js"
+    "static/css/main.abfa976e.css",
+    "static/js/main.0de3b518.js"
   ]
 }
