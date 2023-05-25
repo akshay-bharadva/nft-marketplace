@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nft-marketplace/static/css/main.e8428cdc.css",
-    "main.js": "/nft-marketplace/static/js/main.2ce44f0f.js",
+    "main.css": "/nft-marketplace/static/css/main.cf3f95b0.css",
+    "main.js": "/nft-marketplace/static/js/main.c3f2f3bb.js",
     "static/js/787.0979ab29.chunk.js": "/nft-marketplace/static/js/787.0979ab29.chunk.js",
     "static/media/watered-colour-painting.jpg": "/nft-marketplace/static/media/watered-colour-painting.88c4757638aeb81a75af.jpg",
     "static/media/sea-coral.jpg": "/nft-marketplace/static/media/sea-coral.edbbfed3004a07b2523e.jpg",
@@ -18,17 +18,17 @@
     "static/media/canvas-painting.jpg": "/nft-marketplace/static/media/canvas-painting.fab17f923c25ba3fd35b.jpg",
     "static/media/spiral-glass-object.jpg": "/nft-marketplace/static/media/spiral-glass-object.cb15f869c95cc112306d.jpg",
     "static/media/coloured-balls.jpg": "/nft-marketplace/static/media/coloured-balls.5dd212f4966e640144f1.jpg",
-    "static/media/black-female-with-spect.png": "/nft-marketplace/static/media/black-female-with-spect.ba827351cc3867aedea5.png",
+    "static/media/black-female-with-spect.jpg": "/nft-marketplace/static/media/black-female-with-spect.ba827351cc3867aedea5.jpg",
     "static/media/glassed-hand-object.jpg": "/nft-marketplace/static/media/glassed-hand-object.dfaf7021cbc41279a972.jpg",
     "static/media/grayscale-roman-sculpture.jpg": "/nft-marketplace/static/media/grayscale-roman-sculpture.b1505bd5803396dc7070.jpg",
     "static/media/skeleton-with-outfits.jpg": "/nft-marketplace/static/media/skeleton-with-outfits.026ea8cf0ffdb2f4944e.jpg",
     "index.html": "/nft-marketplace/index.html",
-    "main.e8428cdc.css.map": "/nft-marketplace/static/css/main.e8428cdc.css.map",
-    "main.2ce44f0f.js.map": "/nft-marketplace/static/js/main.2ce44f0f.js.map",
+    "main.cf3f95b0.css.map": "/nft-marketplace/static/css/main.cf3f95b0.css.map",
+    "main.c3f2f3bb.js.map": "/nft-marketplace/static/js/main.c3f2f3bb.js.map",
     "787.0979ab29.chunk.js.map": "/nft-marketplace/static/js/787.0979ab29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8428cdc.css",
-    "static/js/main.2ce44f0f.js"
+    "static/css/main.cf3f95b0.css",
+    "static/js/main.c3f2f3bb.js"
   ]
 }
