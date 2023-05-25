@@ -1,7 +1,8 @@
 @import "../../styles/abstracts/mixins";
 
 .explore {
-  padding: 5rem;
+  padding: 5rem 0;
+
   &__title {
     text-align: center;
     font-family: "Poppins";
@@ -12,14 +13,32 @@
     letter-spacing: 0.005em;
     color: #ffffff;
     margin-bottom: 10rem;
+
+    @media (min-width: 426px) and (max-width: 768px) {
+      & {
+        font-size: 4rem;
+        margin-bottom: 5rem;
+      }
+    }
+    @media (max-width: 426px) {
+      & {
+        font-size: 3.5rem;
+      }
+    }
   }
   &__tab-container {
     @include flexCenter;
     gap: 1.5rem;
     margin-bottom: 2rem;
+
+    @media (max-width: 426px) {
+      & {
+        flex-wrap: wrap;
+      }
+    }
   }
   &__card-list {
-    padding: 3rem 5rem;
+    padding: 3rem 0;
   }
   &__card-container {
   }
@@ -35,7 +54,7 @@
     transition: all 0.2s;
   }
   &__card:hover &__nft-image {
-    height: 25.7rem;
+    height: 24.8rem;
   }
   &__nft-image {
     height: 30rem;
@@ -86,7 +105,7 @@
       font-weight: 700;
       font-size: 2rem;
       line-height: 100%;
-      letter-spacing: 0.005rem;
+      letter-spacing: -0.2rem;
 
       background: linear-gradient(97.86deg, #ff8d8d -38.38%, #f7fc0e 71.88%);
       -webkit-background-clip: text;

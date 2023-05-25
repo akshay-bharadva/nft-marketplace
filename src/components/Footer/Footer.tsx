@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <Profiler id="footer" onRender={() => {}}>
-      <footer className={CLASS_NAME}>
+      <footer className={`${CLASS_NAME} container`}>
         <div className={`${CLASS_NAME}__cta-container`}>
           <div className={`${CLASS_NAME}__cta-details`}>
             <h3 className={`${CLASS_NAME}__title`}>Never miss a drop!</h3>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className={`${CLASS_NAME}__copyright-container`}>© {new Date().getFullYear()} NFT, Inc.</div>
+        <div className={`${CLASS_NAME}__copyright-container`}>&#169; {new Date().getFullYear()} NFT, Inc.</div>
       </footer>
     </Profiler>
   );

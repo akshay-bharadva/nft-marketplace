@@ -1,7 +1,7 @@
 @import "../../styles/abstracts/mixins";
 
 .button {
-  $vertical-padding: 1rem;
+  $vertical-padding: 0.6rem;
   $horizontal-padding: 2rem;
   border: 0;
   @include flexCenter;

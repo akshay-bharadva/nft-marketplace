@@ -8,9 +8,9 @@ const CLASS_NAME = "hero";
 const Hero = () => {
   return (
     <Profiler id="hero" onRender={() => {}}>
-      <section className={CLASS_NAME}>
+      <section className={`${CLASS_NAME} container`}>
         <div className={`${CLASS_NAME}__container row`}>
-          <div className={`${CLASS_NAME}__detail-container col-6`}>
+          <div className={`${CLASS_NAME}__detail-container col-12 col-md-6`}>
             <h2 className={`${CLASS_NAME}__title`}>
               Discover & Collect <span className={`${CLASS_NAME}__title--highlight`}>Super Rare</span> Digital Artworks
             </h2>
@@ -23,7 +23,7 @@ const Hero = () => {
               <Button content="Sell NFT" isRounded isOutline />
             </div>
           </div>
-          <div className={`${CLASS_NAME}__graphic-container col-6`}>
+          <div className={`${CLASS_NAME}__graphic-container col-12 col-md-6`}>
             <div className={`${CLASS_NAME}__graphics`}>
               <div>
                 <div className={`${CLASS_NAME}__nft-graphics`}>

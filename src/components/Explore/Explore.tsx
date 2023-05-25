@@ -101,7 +101,7 @@ const Explore = () => {
   const [currentTab, setCurrentTab] = useState(() => "art");
   return (
     <Profiler id="Explore" onRender={() => {}}>
-      <section className={`${CLASS_NAME}`}>
+      <section className={`${CLASS_NAME} container`}>
         <h3 className={`${CLASS_NAME}__title`}>Explore Marketplace</h3>
         <div className={`${CLASS_NAME}__tab-container`}>
           {EXPLORE_TABS.map((_, idx) => {
@@ -122,7 +122,7 @@ const Explore = () => {
         <div className={`${CLASS_NAME}__card-list row`}>
           {EXPLORE_MARKETPLACE_NFTs.map((_, idx) => {
             return (
-              <div key={idx} className={`${CLASS_NAME}__card-container col-3`}>
+              <div key={idx} className={`${CLASS_NAME}__card-container col-12 col-md-4 col-xl-3`}>
                 <div className={`${CLASS_NAME}__card`}>
                   <div className={`${CLASS_NAME}__nft-image`}>
                     <img src={_.nftSourceImage} alt={_.nftSourceImage} />

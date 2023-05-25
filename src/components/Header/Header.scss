@@ -5,6 +5,12 @@
   border-bottom: 1.5px solid $color-grey-dark-3;
   padding: 2rem 10rem;
 
+  @media (min-width: 426px) and (max-width: 768px) {
+    & {
+      padding: 2rem 6rem;
+    }
+  }
+
   &__menu-container {
     @include flexCenter;
     justify-content: flex-start;
@@ -37,6 +43,11 @@
 
     & li:not(:last-child) {
       margin-right: 5rem;
+      @media (min-width: 426px) and (max-width: 768px) {
+        & {
+          margin-right: 3rem;
+        }
+      }
     }
   }
 
