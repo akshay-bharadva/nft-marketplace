@@ -1,54 +1,100 @@
-# NFT | Marketplace - <a href="https://akshay-bharadva.github.io/nft-marketplace/">![Github Pages](https://github.com/akshay-bharadva/nft-marketplace/actions/workflows/deploy.yml/badge.svg)</a>
+# NFT | Marketplace
 
-<!-- https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg -->
-<!-- ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg) -->
+[![GitHub Pages Deploy](https://github.com/akshay-bharadva/nft-marketplace/actions/workflows/deploy.yml/badge.svg)](https://akshay-bharadva.github.io/nft-marketplace/)
 
-## Getting Started with Create React App
+A sleek, modern, and fully responsive frontend for a Non-Fungible Token (NFT) marketplace. This project showcases a visually appealing interface for discovering, exploring, and collecting digital artworks. Built with React and TypeScript, it demonstrates best practices for component-based architecture and modern web development.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](./src/assets/Main.png)
 
-## Available Scripts
+## ✨ Live Demo & Design
 
-In the project directory, you can run:
+-   **[View Live Demo](https://akshay-bharadva.github.io/nft-marketplace/)**
+-   **[View on Figma](https://www.figma.com/community/file/1127975967741861309)**
+
+## 🚀 Features
+
+-   **Fully Responsive Design:** A flawless viewing experience on all devices, from mobile phones to desktops.
+-   **Interactive Hero Section:** An engaging hero banner with animated, stacked NFT cards to immediately capture user attention.
+-   **Trending Section:** A dedicated section to showcase the most popular NFTs of the week.
+-   **Dynamic Explore Marketplace:** A filterable gallery that allows users to browse NFTs by category (e.g., Art, Gaming, Sports).
+-   **Reusable Components:** A modular and scalable architecture built with reusable components like `Button` and `Input`.
+-   **Modern Styling:** A sophisticated and clean UI crafted with Sass for advanced styling and Bootstrap for a robust grid system.
+-   **Email Subscription:** A footer section to capture user interest and sign them up for new drops.
+
+## 🛠️ Tech Stack
+
+-   **Framework:** [React](https://reactjs.org/)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Sass](https://sass-lang.com/), [Bootstrap 5](https://getbootstrap.com/) (for Grid System)
+-   **State Management:** React Hooks (`useState`)
+-   **Code Quality:**
+    -   **Formatting:** [Prettier](https://prettier.io/)
+    -   **Linting:** [ESLint](https://eslint.org/)
+    -   **Pre-commit Hooks:** [Husky](https://typicode.github.io/husky/) & [lint-staged](https://github.com/okonet/lint-staged)
+
+## 📦 Getting Started
+
+To get a local copy up and running, please follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+-   **Node.js** (v16 or later recommended)
+-   **npm** or **yarn**
+
+### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/akshay-bharadva/nft-marketplace.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```sh
+    cd nft-marketplace
+    ```
+
+3.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+## 📜 Available Scripts
+
+In the project directory, you can run the following commands:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will automatically reload when you make changes.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Launches the test runner in interactive watch mode.
 
-### `npm run eject`
+### `npm run format`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Formats all source code files in the `src` directory using Prettier, ensuring consistent code style across the project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The project follows a standard component-based structure to ensure code is modular and easy to maintain.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-# Preview UI - [Figma](https://www.figma.com/community/file/1127975967741861309)
-![image](/src/assets/Main.png)
+```
+nft-marketplace/
+├── public/               # Static assets and index.html
+├── src/
+│   ├── assets/           # Images, logos, and other media
+│   ├── components/       # Reusable React components (Button, Header, etc.)
+│   ├── hooks/            # Custom React hooks
+│   ├── pages/            # Page-level components (e.g., Landing)
+│   ├── styles/           # Global Sass styles, variables, and mixins
+│   ├── utils/            # Utility functions
+│   ├── App.tsx           # Main application component
+│   └── index.tsx         # Application entry point
+├── package.json          # Project dependencies and scripts
+└── README.md             # You are here!
+```
